@@ -1,23 +1,31 @@
-# Groq LangChain Conversational Chatbot
+# Chatbot Conversacional Groq LangChain
 
-This repository contains a Streamlit application that allows users to interact with a conversational chatbot powered by the LangChain API. The application uses the Groq API to generate responses and maintains a history of the conversation to provide context for the chatbot's responses.
+Este repositório contém uma aplicação Streamlit que permite aos usuários interagirem com um chatbot conversacional alimentado pela API LangChain. A aplicação utiliza a API Groq para gerar respostas e mantém um histórico da conversa para fornecer contexto para as respostas do chatbot.
 
-## Features
+## Funcionalidades
 
-- **Conversational Interface**: The application provides a conversational interface where users can ask questions or make statements, and the chatbot responds accordingly.
+- **Interface Conversacional**: A aplicação fornece uma interface conversacional onde os usuários podem fazer perguntas ou fazer afirmações, e o chatbot responde de acordo.
 
-- **Contextual Responses**: The application maintains a history of the conversation, which is used to provide context for the chatbot's responses.
+- **Respostas Contextuais**: A aplicação mantém um histórico da conversa, que é usado para fornecer contexto para as respostas do chatbot.
 
-- **LangChain Integration**: The chatbot is powered by the LangChain API, which uses advanced natural language processing techniques to generate human-like responses.
+- **Integração com LangChain**: O chatbot é alimentado pela API LangChain, que utiliza técnicas avançadas de processamento de linguagem natural para gerar respostas semelhantes às humanas.
 
-## Usage
+## Utilização
 
-To use this application, you need to have Streamlit and the other required Python libraries installed. You also need to have a Groq API key, which you can obtain by signing up on the Groq website.
-
-Once you have the necessary requirements, you can run the application by executing the script with Streamlit:
+Para usar esta aplicação, você precisa ter o Streamlit e as outras bibliotecas Python necessárias instaladas. Você também precisa ter uma chave de API Groq, que pode obter ao se inscrever no site Groq.
 
 ```shell
 streamlit run app.py
 ```
 
-This will start the Streamlit server and open the application in your web browser. You can then interact with the chatbot, and the application will generate responses based on the history of the conversation.
+Depois de ter os requisitos necessários, você pode executar a aplicação executando o script com o Streamlit:
+
+```shell
+streamlit run app.py
+```
+Isso iniciará o servidor Streamlit e abrirá a aplicação no seu navegador da web. Você pode então interagir com o chatbot, e a aplicação gerará respostas com base no histórico da conversa.
+
+\
+Fonte: \
+https://console.groq.com/docs/examples#conversational-chatbot \
+https://github.com/definitive-io/conversational-chatbot-groq/tree/main
